@@ -1,4 +1,4 @@
-name: <GITHUB_REPOSITORY>
+name: CVAE-torch
 channels:
   - anaconda
   - pytorch
