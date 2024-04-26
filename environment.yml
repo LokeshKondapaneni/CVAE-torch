@@ -4,7 +4,20 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
-  - python==3.10.4
-  - pytorch==1.11.0
+  - python==3.11.7
+  - pip
+  - torch==2.1.2
+  - torchvision==0.16.2
+  - torchaudio==2.1.2
+  - notebook>=6.4.5
+  - jupyterlab>=3.2.1
+  - jupyterlab-code-formatter==2.2.1
+  - jupyterlab-latex
+  - matplotlib>=3.4.3
+  - seaborn>=0.11.2
+  - ipywidgets>=7.6.5
+  - tensorboard==2.14.1
+  - pillow>=8.0.1
+  - jupyter notebook
   - yapf==0.31.0
   - pylint==2.12.2
